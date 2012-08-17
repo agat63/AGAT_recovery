@@ -24,7 +24,7 @@ char* MENU_HEADERS[] = { NULL };
 
 char* MENU_ITEMS[] = { "reboot menu",
                        "install zip from sdcard",
-		       "wipe data/factory reset",
+		       		    "wipe data/factory reset",
                        "wipe cache partition",
                        "apply update from sdcard",
                        "backup and restore",

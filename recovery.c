@@ -504,11 +504,9 @@ get_menu_selection(char** headers, char** items, int menu_only,
             if (wrap_count == 3) {
                 wrap_count = 0;
                 if (ui_get_showing_back_button()) {
-                    ui_print("Back menu button disabled.\n");
-                    ui_set_showing_back_button(0);
+                    ui_set_showing_back_button(1);
                 }
                 else {
-                    ui_print("Back menu button enabled.\n");
                     ui_set_showing_back_button(1);
                 }
             }
